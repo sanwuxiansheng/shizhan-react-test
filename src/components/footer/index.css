@@ -1,0 +1,69 @@
+.footer {
+  width: 100%;
+  height: 45px;
+  position: fixed;
+  bottom: 0;
+}
+.footer .tabBar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  position: relative;
+  height: 100%;
+  border-top: 1px solid #d9d9d9;
+}
+.footer .tabBar .item {
+  position: relative;
+  text-align: center;
+}
+.footer .tabBar .item i {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url("../image/wangyi.png");
+  background-repeat-x: no-repeat;
+  background-size: 18px 240px;
+  width: 18px;
+  height: 20px;
+}
+.footer .tabBar .item i.index {
+  background-position: 0 356px;
+  margin: 3px 0;
+}
+.footer .tabBar .item i.index.active {
+  background-position: 0 381px;
+}
+.footer .tabBar .item i.cate {
+  background-position: 0 166px;
+  margin: 3px 0;
+}
+.footer .tabBar .item i.cate.active {
+  background-position: 0 190px;
+}
+.footer .tabBar .item i.topic {
+  background-position: 0 307px;
+  margin: 3px 0;
+}
+.footer .tabBar .item i.topic.active {
+  background-position: 0 333px;
+}
+.footer .tabBar .item i.cart {
+  background-position: 0 215px;
+  margin: 3px 0;
+}
+.footer .tabBar .item i.cart.active {
+  background-position: 0 241px;
+}
+.footer .tabBar .item i.ucenter {
+  background-position: 0 259px;
+  margin: 3px 0;
+}
+.footer .tabBar .item i.ucenter.active {
+  background-position: 0 285px;
+}
+.footer .tabBar .item .txt {
+  display: block;
+  margin-bottom: 3px;
+  font-size: 0.32rem;
+  color: #666;
+  line-height: 1;
+}
